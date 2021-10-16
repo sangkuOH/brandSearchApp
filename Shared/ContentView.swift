@@ -6,11 +6,15 @@
 //
 
 import SwiftUI
+import AlamofireNetworkActivityLogger
 
 struct ContentView: View {
+    init() {
+        NetworkActivityLogger.shared.startLogging()
+    }
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        SearchView()
     }
 }
 

@@ -7,21 +7,48 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B5CFB583271AA98100F628EB /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CFB582271AA98100F628EB /* String.swift */; };
+		B5D8C5E2271A67760088AC65 /* AlamofireNetworkActivityLogger in Frameworks */ = {isa = PBXBuildFile; productRef = B5D8C5E1271A67760088AC65 /* AlamofireNetworkActivityLogger */; };
+		B5D8C5E5271A6ABC0088AC65 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D8C5E4271A6ABC0088AC65 /* Data.swift */; };
 		B5D9D8FD2719B66100DC9711 /* brandSearchAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D9D8ED2719B66000DC9711 /* brandSearchAppApp.swift */; };
 		B5D9D8FE2719B66100DC9711 /* brandSearchAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D9D8ED2719B66000DC9711 /* brandSearchAppApp.swift */; };
 		B5D9D8FF2719B66100DC9711 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D9D8EE2719B66000DC9711 /* ContentView.swift */; };
 		B5D9D9002719B66100DC9711 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D9D8EE2719B66000DC9711 /* ContentView.swift */; };
 		B5D9D9012719B66100DC9711 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5D9D8EF2719B66100DC9711 /* Assets.xcassets */; };
 		B5D9D9022719B66100DC9711 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5D9D8EF2719B66100DC9711 /* Assets.xcassets */; };
+		B5D9D90F2719B6BD00DC9711 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D9D90E2719B6BD00DC9711 /* SearchView.swift */; };
+		B5D9D9112719B7CB00DC9711 /* SearchResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D9D9102719B7CB00DC9711 /* SearchResponse.swift */; };
+		B5D9D9132719B8A500DC9711 /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D9D9122719B8A500DC9711 /* SearchViewModel.swift */; };
+		B5D9D9162719BA0A00DC9711 /* AppLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D9D9152719BA0A00DC9711 /* AppLogger.swift */; };
+		B5D9D9182719BA2300DC9711 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D9D9172719BA2300DC9711 /* Constant.swift */; };
+		B5D9D91A2719BA6D00DC9711 /* GetPlistInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D9D9192719BA6D00DC9711 /* GetPlistInfo.swift */; };
+		B5D9D91C2719C85200DC9711 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D9D91B2719C85200DC9711 /* DetailView.swift */; };
+		B5D9D91F2719E09800DC9711 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = B5D9D91E2719E09800DC9711 /* Alamofire */; };
+		B5D9D9222719E11300DC9711 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D9D9212719E11300DC9711 /* APIClient.swift */; };
+		B5D9D9242719E12A00DC9711 /* KakaoAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D9D9232719E12A00DC9711 /* KakaoAPI.swift */; };
+		B5D9D9262719E17100DC9711 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D9D9252719E17100DC9711 /* Config.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B5778B55271A7C6400540419 /* brandSearchApp--iOS--Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "brandSearchApp--iOS--Info.plist"; sourceTree = "<group>"; };
+		B5CFB582271AA98100F628EB /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		B5D8C5E4271A6ABC0088AC65 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		B5D9D8ED2719B66000DC9711 /* brandSearchAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = brandSearchAppApp.swift; sourceTree = "<group>"; };
 		B5D9D8EE2719B66000DC9711 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B5D9D8EF2719B66100DC9711 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B5D9D8F42719B66100DC9711 /* brandSearchApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = brandSearchApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5D9D8FA2719B66100DC9711 /* brandSearchApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = brandSearchApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5D9D8FC2719B66100DC9711 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		B5D9D90E2719B6BD00DC9711 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		B5D9D9102719B7CB00DC9711 /* SearchResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResponse.swift; sourceTree = "<group>"; };
+		B5D9D9122719B8A500DC9711 /* SearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
+		B5D9D9152719BA0A00DC9711 /* AppLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLogger.swift; sourceTree = "<group>"; };
+		B5D9D9172719BA2300DC9711 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		B5D9D9192719BA6D00DC9711 /* GetPlistInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetPlistInfo.swift; sourceTree = "<group>"; };
+		B5D9D91B2719C85200DC9711 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		B5D9D9212719E11300DC9711 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		B5D9D9232719E12A00DC9711 /* KakaoAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KakaoAPI.swift; sourceTree = "<group>"; };
+		B5D9D9252719E17100DC9711 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +56,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5D9D91F2719E09800DC9711 /* Alamofire in Frameworks */,
+				B5D8C5E2271A67760088AC65 /* AlamofireNetworkActivityLogger in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,9 +71,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B5D8C5E3271A6AA90088AC65 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B5D8C5E4271A6ABC0088AC65 /* Data.swift */,
+				B5CFB582271AA98100F628EB /* String.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		B5D9D8E72719B65F00DC9711 = {
 			isa = PBXGroup;
 			children = (
+				B5778B55271A7C6400540419 /* brandSearchApp--iOS--Info.plist */,
 				B5D9D8EC2719B66000DC9711 /* Shared */,
 				B5D9D8FB2719B66100DC9711 /* macOS */,
 				B5D9D8F52719B66100DC9711 /* Products */,
@@ -54,6 +93,11 @@
 		B5D9D8EC2719B66000DC9711 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				B5D9D9202719E0F000DC9711 /* Http */,
+				B5D9D9142719B9FB00DC9711 /* Utils */,
+				B5D9D90D2719B6AA00DC9711 /* Model */,
+				B5D9D90C2719B6A600DC9711 /* View */,
+				B5D9D90B2719B69F00DC9711 /* ViewModel */,
 				B5D9D8ED2719B66000DC9711 /* brandSearchAppApp.swift */,
 				B5D9D8EE2719B66000DC9711 /* ContentView.swift */,
 				B5D9D8EF2719B66100DC9711 /* Assets.xcassets */,
@@ -78,6 +122,52 @@
 			path = macOS;
 			sourceTree = "<group>";
 		};
+		B5D9D90B2719B69F00DC9711 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				B5D9D9122719B8A500DC9711 /* SearchViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		B5D9D90C2719B6A600DC9711 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B5D9D90E2719B6BD00DC9711 /* SearchView.swift */,
+				B5D9D91B2719C85200DC9711 /* DetailView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B5D9D90D2719B6AA00DC9711 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B5D9D9102719B7CB00DC9711 /* SearchResponse.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B5D9D9142719B9FB00DC9711 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				B5D8C5E3271A6AA90088AC65 /* Extensions */,
+				B5D9D9152719BA0A00DC9711 /* AppLogger.swift */,
+				B5D9D9172719BA2300DC9711 /* Constant.swift */,
+				B5D9D9192719BA6D00DC9711 /* GetPlistInfo.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		B5D9D9202719E0F000DC9711 /* Http */ = {
+			isa = PBXGroup;
+			children = (
+				B5D9D9212719E11300DC9711 /* APIClient.swift */,
+				B5D9D9232719E12A00DC9711 /* KakaoAPI.swift */,
+				B5D9D9252719E17100DC9711 /* Config.swift */,
+			);
+			path = Http;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -94,6 +184,10 @@
 			dependencies = (
 			);
 			name = "brandSearchApp (iOS)";
+			packageProductDependencies = (
+				B5D9D91E2719E09800DC9711 /* Alamofire */,
+				B5D8C5E1271A67760088AC65 /* AlamofireNetworkActivityLogger */,
+			);
 			productName = "brandSearchApp (iOS)";
 			productReference = B5D9D8F42719B66100DC9711 /* brandSearchApp.app */;
 			productType = "com.apple.product-type.application";
@@ -142,6 +236,10 @@
 				Base,
 			);
 			mainGroup = B5D9D8E72719B65F00DC9711;
+			packageReferences = (
+				B5D9D91D2719E09800DC9711 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				B5D8C5E0271A67760088AC65 /* XCRemoteSwiftPackageReference "AlamofireNetworkActivityLogger" */,
+			);
 			productRefGroup = B5D9D8F52719B66100DC9711 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -176,7 +274,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5D9D9182719BA2300DC9711 /* Constant.swift in Sources */,
+				B5D9D91C2719C85200DC9711 /* DetailView.swift in Sources */,
+				B5D9D9112719B7CB00DC9711 /* SearchResponse.swift in Sources */,
+				B5D9D9222719E11300DC9711 /* APIClient.swift in Sources */,
+				B5CFB583271AA98100F628EB /* String.swift in Sources */,
+				B5D9D9132719B8A500DC9711 /* SearchViewModel.swift in Sources */,
+				B5D9D9262719E17100DC9711 /* Config.swift in Sources */,
 				B5D9D8FF2719B66100DC9711 /* ContentView.swift in Sources */,
+				B5D9D9242719E12A00DC9711 /* KakaoAPI.swift in Sources */,
+				B5D8C5E5271A6ABC0088AC65 /* Data.swift in Sources */,
+				B5D9D9162719BA0A00DC9711 /* AppLogger.swift in Sources */,
+				B5D9D91A2719BA6D00DC9711 /* GetPlistInfo.swift in Sources */,
+				B5D9D90F2719B6BD00DC9711 /* SearchView.swift in Sources */,
 				B5D9D8FD2719B66100DC9711 /* brandSearchAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -314,12 +424,14 @@
 				DEVELOPMENT_TEAM = B8ANYGLUWU;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "brandSearchApp--iOS--Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -330,7 +442,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -344,12 +456,14 @@
 				DEVELOPMENT_TEAM = B8ANYGLUWU;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "brandSearchApp--iOS--Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -360,7 +474,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -452,6 +566,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B5D8C5E0271A67760088AC65 /* XCRemoteSwiftPackageReference "AlamofireNetworkActivityLogger" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/konkab/AlamofireNetworkActivityLogger";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+		B5D9D91D2719E09800DC9711 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B5D8C5E1271A67760088AC65 /* AlamofireNetworkActivityLogger */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B5D8C5E0271A67760088AC65 /* XCRemoteSwiftPackageReference "AlamofireNetworkActivityLogger" */;
+			productName = AlamofireNetworkActivityLogger;
+		};
+		B5D9D91E2719E09800DC9711 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B5D9D91D2719E09800DC9711 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B5D9D8E82719B65F00DC9711 /* Project object */;
 }
