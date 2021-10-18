@@ -94,8 +94,7 @@ struct SearchView: View {
            !data.documents.isEmpty {
             ScrollView {
                 LazyVGrid(columns: columns, spacing: 0) {
-                    ForEach(data.documents, id: \.self) { item in
-                        
+                    ForEach(Array(data.documents.enumerated()), id: \.offset) { index, item in
                         NavigationLink {
                             DetailView(item: item)
                         } label: {
@@ -110,14 +109,13 @@ struct SearchView: View {
                                     .foregroundColor(.secondary)
                             }
                         }
+                        .task {
+                            if index == data.documents.count - 1 {
+                                searchViewModel.fetchData()
+                            }
+                        }
                     }
                 }
-            }
-            if !searchViewModel.isLoading && !data.meta.is_end {
-                ProgressView()
-                    .onAppear {
-                        searchViewModel.fetchData()
-                    }
             }
         } else {
             noResult
