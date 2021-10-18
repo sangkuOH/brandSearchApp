@@ -110,9 +110,12 @@ struct SearchView: View {
                             }
                         }
                         .task {
-                            if index == data.documents.count - 1 {
+                            if index == data.documents.count - 1 && !searchViewModel.isLoading {
                                 searchViewModel.fetchData()
                             }
+                        }
+                        if searchViewModel.isLoading {
+                            ProgressView()
                         }
                     }
                 }

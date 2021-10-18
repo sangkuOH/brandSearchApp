@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Documents: Codable, Hashable {
+struct Documents: Codable {
     let collection: String
     let thumbnail_url: String
     let image_url: String
@@ -18,13 +18,13 @@ struct Documents: Codable, Hashable {
     let datetime: String
 }
 
-struct MetaData: Codable, Hashable {
+struct MetaData: Codable {
     let total_count: Int
     let pageable_count: Int
     let is_end: Bool
 }
 
-struct SearchResponse: Codable, Hashable {
+struct SearchResponse: Codable {
     var meta: MetaData
     var documents: [Documents]
 }
